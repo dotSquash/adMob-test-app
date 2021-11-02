@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
+/// Note that we are using testing app ids and testing banner ad ids
+
 class AdmobHelper {
   static String get bannerID => Platform.isAndroid
       ? 'ca-app-pub-3940256099942544/6300978111'
